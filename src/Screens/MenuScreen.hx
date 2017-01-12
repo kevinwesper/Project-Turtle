@@ -8,6 +8,7 @@ import openfl.display.Sprite;
  * Simple screen in the application.
  * Shows a text and a button.
  *
+ * @author Kevin Beijer, Deborah ..., Dea ..., Shaquille ... & George ...
  */
 class MenuScreen extends Screen
 {
