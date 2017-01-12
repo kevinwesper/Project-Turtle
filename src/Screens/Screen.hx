@@ -7,6 +7,8 @@ import openfl.events.Event;
 /**
  * The base class for all screens.
  * The onLoad and onDestroy can be implemented in the derived classes.
+ * 
+ * @author Kevin Beijer, Deborah ..., Dea ..., Shaquille ... & George ...
  */
 class Screen extends Sprite
 {
