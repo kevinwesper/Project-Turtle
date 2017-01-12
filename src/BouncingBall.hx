@@ -9,6 +9,7 @@ import openfl.geom.Point;
 /**
  * A simple bouncing ball
  * 
+ * @author Kevin Beijer, Deborah ..., Dea ..., Shaquille ... & George ...
  */
 class BouncingBall extends Sprite
 {
