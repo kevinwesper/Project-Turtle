@@ -11,6 +11,7 @@ import openfl.events.Event;
  * Simple screen in the application.
  * Shows a text, a button and a moving element.
  *
+ * @author Kevin Beijer, Deborah ..., Dea ..., Shaquille ... & George ...
  */
 class GameScreen extends Screen
 {
