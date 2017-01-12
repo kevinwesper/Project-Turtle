@@ -17,6 +17,7 @@ import openfl.text.TextFormatAlign;
 /**
  * A fairly crude button with state functionality and a callback for when clicked.
  *
+ * @author Kevin Beijer, Deborah ..., Dea ..., Shaquille ... & George ...
  */
 class Button extends Sprite 
 {
