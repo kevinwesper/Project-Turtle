@@ -8,6 +8,7 @@ import openfl.text.TextFormatAlign;
 /**
  * Text displaying class
  *
+ * @author Kevin Beijer, Deborah ..., Dea ..., Shaquille ... & George ...
  */
 class InstructionText extends TextField
 {
