@@ -1,6 +1,8 @@
 # Project-Turtle
 Repository for the "Project Turtle" project work
 
+buttons folder should be in the src folder
+
 Edit your names in all the classes so it looks like everyone worked on the same things.
 
 Different classes for different gamescreens and cutscenes
