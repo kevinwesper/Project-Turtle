@@ -30,15 +30,15 @@ class Card extends Sprite
 	function createDeck() 
 	{
 		var types:Array<String> = [ "Attack", "Heal" ];
-		var strengths:Array<Int> = [ 5, 10, 20, 25 ];				//Balancing stuff
-		var healings:Array<Int> = [ 10, 25, 50 ];
+		var strengths:Array<Int> = [ 0, 5, 10, 20, 25 ];				//Balancing stuff
+		var healings:Array<Int> = [ 0, 10, 25, 50 ];
 		for ( type in types )
 		{ 
 			for ( strength in strengths )
 			{
 				for ( healing in healings )
 				{
-					public var imageName:String = ( "img/" + type + "_" + strength + healing + ".png" );
+					public var imageName:String = ( "img/" + type + "_" + strength + "_" + healing + ".png" );
 				}
 			}
 		}
