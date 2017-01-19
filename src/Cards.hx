@@ -14,6 +14,7 @@ import openfl.display.Sprite;
 class Card extends Sprite
 {
 	public var strength:Int;
+	public var healing:Int;
 	public var type:String;
 	public var imageName:String;
 	
@@ -28,13 +29,17 @@ class Card extends Sprite
 	/** * Create an deck (array) with the cards * */ 
 	function createDeck() 
 	{
-		var types:Array<String> = [ "Attack", "Defence", "Other", "Heal" ];
-		var strengths:Array<Int> = [ 1, 2, 3, 4 ];
+		var types:Array<String> = [ "Attack", "Heal" ];
+		var strengths:Array<Int> = [ 5, 10, 20, 25 ];				//Balancing stuff
+		var healings:Array<Int> = [ 10, 25, 50 ];
 		for ( type in types )
 		{ 
 			for ( strength in strengths )
 			{
-		public var imageName:String = ( "img/" + type + "_" + strenth + ".png" );
+				for ( healing in healings )
+				{
+					public var imageName:String = ( "img/" + type + "_" + strength + healing + ".png" );
+				}
 			}
 		}
 	}
