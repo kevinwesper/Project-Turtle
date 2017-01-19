@@ -19,4 +19,19 @@ Placedcard class needs the card class
 
 Card class to be worked out
 
+balancing
 
+
+Program tasks divided:
+
+player class
+enemy1 class
+placedcard class
+
+
+
+Kevin: Battle rules class
+Shaquille: placedcards class
+Georgi: Cards stuff
+Dea: player class
+Deborah: Enemy1 class
