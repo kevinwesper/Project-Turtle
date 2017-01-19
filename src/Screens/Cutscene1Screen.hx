@@ -21,7 +21,7 @@ class Cutscene1Screen extends Screen
 	{
 		super();
 		
-		var cutscene1Data:BitmapData = Assets.getBitmapData( "img/Cutscene1.png");
+		var cutscene1Data:BitmapData = Assets.getBitmapData( "img/Art#1.png");
 		var cutscene1:Bitmap = new Bitmap( cutscene1Data );
 		addChild(cutscene1);
 	}
