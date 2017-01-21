@@ -12,7 +12,7 @@ import buttons.*;
 /**
  * Class for the Credits Screen
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
 class CreditsScreen extends Screen
