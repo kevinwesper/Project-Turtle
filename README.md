@@ -3,6 +3,7 @@ Repository for the "Project Turtle" project.
 
 To do:
 - buttons folder should be in the src folder
+- Screens folder should be screens
 - Edit your names in all the classes so it looks like everyone worked on the same things.
 - Implement pictures
 - button location needs to be changed
