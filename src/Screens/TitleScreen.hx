@@ -21,7 +21,7 @@ class TitleScreen extends Screen
 	{
 		super();
 		
-		var titleData:BitmapData = Assets.getBitmapData( "img/Title.png");
+		var titleData:BitmapData = Assets.getBitmapData( "img/Starting screen_right size.png");
 		var title:Bitmap = new Bitmap( titleData );
 		addChild(title);
 	}
