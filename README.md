@@ -6,6 +6,7 @@ To do:
 - all the button classes will be 1 class with a basic button
 - text will be added as button text (and maybe for in the cutscenes as well?)
 - Screens folder should be screens
+- image files should be renamed for easier use. (Art#1 could be Cutscene_#1)
 - Edit your names in all the classes so it looks like everyone worked on the same things.
 - Implement pictures
 - User Interface class should be made
