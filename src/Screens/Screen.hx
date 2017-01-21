@@ -6,7 +6,7 @@ import openfl.events.Event;
 /**
  * Class for switching between screens
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
  class Screen extends Sprite
