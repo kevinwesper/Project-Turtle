@@ -1,36 +1,22 @@
 # Project-Turtle
-Repository for the "Project Turtle" project work
+Repository for the "Project Turtle" project.
 
-buttons folder should be in the src folder
-
-Edit your names in all the classes so it looks like everyone worked on the same things.
-
-Different classes for different gamescreens and cutscenes
-Gamescreen includes battle class <
-Player class <
-Enemy1 class etc <
-
-Implement pictures
-Every cutscene goes to the next cutscene or to the game
-Skip button will become next button
-Buttons and location should be changed
-
-In the gamescreen, the player class, the enemy1 etc class and the gamerules should be called.
-Gamerules need the card class and placedcard class
-Placedcard class needs the card class
-
-Card class to be worked out
-
-balancing
-
+To do:
+- buttons folder should be in the src folder
+- Edit your names in all the classes so it looks like everyone worked on the same things.
+- Implement pictures
+- button location needs to be changed
+- User Interface class should be made
+- Game progresses from cutscene to cutscene to battle to next cutscene etc.
+- skip button is the "next" button
+- Make all the cutscenes in different classes for now (We will have a lot of classes (and with a lot I mean too much))
+- Make all the gamescreens in different classes (See, too many classes)
+- Gamescreens should take player and enemy[#] from their classes as well as the gamerules class, the user interface class, and the
+  placedcards class
+- almost all classes need the card class
+- balancing at the end
 
 Program tasks divided:
-
-player class
-enemy1 class
-placedcard class
-
-
 
 Kevin: Battle rules class
 Shaquille: placedcards class
