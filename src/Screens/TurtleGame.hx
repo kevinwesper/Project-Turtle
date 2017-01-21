@@ -8,7 +8,7 @@ import openfl.display.Sprite;
 /**
  * Class for the actual game
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
 class TurtleGame extends Screen
