@@ -2,11 +2,12 @@
 Repository for the "Project Turtle" project.
 
 To do:
-- buttons folder should be in the src folder
+- buttons folder should be deleted
+- all the button classes will be 1 class with a basic button
+- text will be added as button text (and maybe for in the cutscenes as well?)
 - Screens folder should be screens
 - Edit your names in all the classes so it looks like everyone worked on the same things.
 - Implement pictures
-- button location needs to be changed
 - User Interface class should be made
 - Game progresses from cutscene to cutscene to battle to next cutscene etc.
 - skip button is the "next" button
