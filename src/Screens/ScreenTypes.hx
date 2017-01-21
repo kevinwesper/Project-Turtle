@@ -3,7 +3,7 @@ package screens;
 /**
  * Class for different kind Screens
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
  enum ScreenTypes
