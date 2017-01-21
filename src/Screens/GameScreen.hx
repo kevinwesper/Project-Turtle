@@ -12,7 +12,7 @@ import buttons.*;
 /**
  * Class for the Game Screen
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
 class GameScreen extends Screen
