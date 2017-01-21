@@ -18,9 +18,8 @@ To do:
 - balancing at the end
 
 Program tasks divided:
-
-Kevin: Battle rules class
-Shaquille: placedcards class
-Georgi: Cards stuff
-Dea: player class
-Deborah: Enemy1 class
+- Kevin: Battle rules class
+- Shaquille: placedcards class
+- Georgi: Cards stuff
+- Dea: player class
+- Deborah: Enemy1 class
