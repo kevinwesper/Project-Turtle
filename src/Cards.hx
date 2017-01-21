@@ -8,7 +8,7 @@ import openfl.display.Sprite;
 /**
  * Code for determining cards
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
 class Card extends Sprite
