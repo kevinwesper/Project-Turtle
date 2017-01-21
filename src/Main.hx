@@ -9,7 +9,7 @@ import buttons.*;
 /**
  * Class for the screens to change. For all the screens to come together and have a great time
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
 class Main extends Sprite 
