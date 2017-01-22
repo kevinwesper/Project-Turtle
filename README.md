@@ -31,7 +31,7 @@ To do in the Player class:
 - Health bar
 
 To do in the placedCard class: 
-- Show 5 clickable card
+- Show 5 clickable card when called upon
 
 To do in the cards class:
 - To create cards, create and shuffle deck
@@ -41,6 +41,7 @@ To do in the gamescreen1 class:
 - Input UI
 
 To do in the gamerules class:
+- Let the cards show
 - Make the cards work their magic
 - Make it affect the player and enemy classes
 - Inputs the cards and placedcards class
