@@ -19,6 +19,32 @@ To do:
 - almost all classes need the card class
 - balancing at the end
 
+To do in the Enemy1 class:
+- Load the enemy1 image + animation in the right place
+- Health bar
+- Random attacks when called -> lead to player turn (gamerules class)
+- linked to player and gamerules class
+
+To do in the Player class:
+- link to the enemy and gamerules class
+- Load the player image + animation in the right place
+- Health bar
+
+To do in the placedCard class: 
+- Show 5 clickable card
+
+To do in the cards class:
+- To create cards, create and shuffle deck
+
+To do in the gamescreen1 class:
+- Input background
+- Input UI
+
+To do in the gamerules class:
+- Make the cards work their magic
+- Make it affect the player and enemy classes
+- Inputs the cards and placedcards class
+
 Program tasks divided:
 - Kevin: Battle rules class
 - Shaquille: placedcards class
