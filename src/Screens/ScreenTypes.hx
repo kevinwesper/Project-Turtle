@@ -12,4 +12,6 @@ package screens;
 	Game;
 	Credits;
 	Cutscene1;
+	Cutscene2;
+	Cutscene3;
 }
