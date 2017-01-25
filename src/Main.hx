@@ -30,7 +30,8 @@ class Main extends Sprite
 			currentScreen.onDestroy();
 		}
 		switch ( which ) 
-		{	case ScreenTypes.Title:
+		{	
+			case ScreenTypes.Title:
 				currentScreen = new TitleScreen();
 			case ScreenTypes.Battle1:
 				currentScreen = new Battle1Screen();
