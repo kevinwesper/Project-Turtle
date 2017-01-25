@@ -9,7 +9,7 @@ import buttons.*;
 /**
  * Class for the screens to change. For all the screens to come together and have a great time
  * 
- * @author Kevin Beijer
+ * @author Kevin
  */
 
 class Main extends Sprite 
@@ -39,6 +39,10 @@ class Main extends Sprite
 				currentScreen = new CreditsScreen();
 			case ScreenTypes.Cutscene1:
 				currentScreen = new Cutscene1Screen();
+			case ScreenTypes.Cutscene2:
+				currentScreen = new Cutscene2Screen();
+			case ScreenTypes.Cutscene3:
+				currentScreen = new Cutscene3Screen();
 		}
 		addChild( currentScreen );
 		currentScreen.onLoad();
