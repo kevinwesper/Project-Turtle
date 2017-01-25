@@ -12,7 +12,7 @@ import buttons.*;
 /**
  * Class for Cutscene 1
  * 
- * @author Kevin Beijer
+ * @author Kevin
  */
 
 class Cutscene1Screen extends Screen
@@ -28,19 +28,28 @@ class Cutscene1Screen extends Screen
 	
 	override public function onLoad():Void
 	{
-		var toMenu:MenuButton = new MenuButton( onMenuClick );
-		toMenu.x = 500;
-		toMenu.y = 50;
+	var toMenu:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Main.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Over_Main.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Down_Main.png"), 
+		"Menu", onMenuClick);
+		toMenu.y = 150;
+		toMenu.x = 674;
 		addChild( toMenu );
 		
-		var toSkip:SkipButton = new SkipButton( onSkipClick );
-		toSkip.x = 500;
-		toSkip.y = 150;
-		addChild( toSkip );
+			var toNext:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Next.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Over_Next.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Down_Next.png"), 
+		"Next", onSkipClick);
+		toNext.y = 210;
+		toNext.x = 674;
+		addChild( toNext );
 		
-		var toQuit:QuitButton = new QuitButton( onQuitClick );
-		toQuit.x = 744;
-		toQuit.y = 424;
+		var toQuit:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Quit.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Over_Quit.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Down_Quit.png"), 
+		"Quit game", onQuitClick);
+		toQuit.y = 270;
+		toQuit.x = 674;
 		addChild( toQuit );
 	}
 
@@ -51,7 +60,7 @@ class Cutscene1Screen extends Screen
 	
 	private function onSkipClick()
 	{
-		Main.instance.loadScreen( ScreenTypes.Game );
+		Main.instance.loadScreen( ScreenTypes.Cutscene2 );
 	}
 	
 	private function onQuitClick()
