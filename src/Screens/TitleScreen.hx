@@ -34,7 +34,7 @@ class TitleScreen extends Screen
 		var toGame:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Start.png"), 
 		Assets.getBitmapData("img/Button_Turtle_Over_Start.png"), 
 		Assets.getBitmapData("img/Button_Turtle_Down_Start.png"), 
-		"Start", onPlayClick);
+		"", onPlayClick);
 		toGame.y = 150;
 		toGame.x = 344;
 		addChild( toGame );
@@ -42,7 +42,7 @@ class TitleScreen extends Screen
 		var toCredits:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Credits.png"), 
 		Assets.getBitmapData("img/Button_Turtle_Over_Credits.png"), 
 		Assets.getBitmapData("img/Button_Turtle_Down_Credits.png"), 
-		"Credits", onCreditsClick);
+		"", onCreditsClick);
 		toCredits.y = 210;
 		toCredits.x = 344;
 		addChild( toCredits );
@@ -50,7 +50,7 @@ class TitleScreen extends Screen
 		var toQuit:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Quit.png"), 
 		Assets.getBitmapData("img/Button_Turtle_Over_Quit.png"), 
 		Assets.getBitmapData("img/Button_Turtle_Down_Quit.png"), 
-		"Quit game", onQuitClick);
+		"", onQuitClick);
 		toQuit.y = 270;
 		toQuit.x = 344;
 		addChild( toQuit );
