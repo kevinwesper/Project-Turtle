@@ -16,9 +16,22 @@ class TurtleGame extends Screen
 	public function new() 
 	{
 		super();
-		
-		var gameData:BitmapData = Assets.getBitmapData( "img/Game.png");
-		var game:Bitmap = new Bitmap( gameData );
-		addChild(game);
 	}
+	
+	/* 	function to check health
+		if dead -> deadscreen
+		if not -> player turn
+		
+		function to call placedcards + make them clickable
+		
+		function playerTurn
+		compare cards + results
+		
+		function check enemy health
+		if dead -> continue
+		if not -> enemy turn
+		
+		function enemyTurn
+		rng attack
+	*/
 }
