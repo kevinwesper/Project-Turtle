@@ -7,7 +7,6 @@ import openfl.display.Sprite;
 import openfl.events.Event;
 import flash.system.System;
 
-import buttons.*;
 
 /**
  * Class for the Game Screen
@@ -18,14 +17,22 @@ import buttons.*;
 class Battle1Screen extends Screen
 {
 	private var game:TurtleGame;
+//	var player:Player;
+//	var enemy:Enemy1;
 	
 	public function new()
 	{
 		super();
 		
 		game = new TurtleGame();
+//		player = new Player();
+//		enemy = new Enemy1();
 		addChild( game );
+//		addChild( player );
+//		addChild( enemy );
 	}
+	
+	// if enemy is dead
 	
 	override public function onLoad():Void
 	{
