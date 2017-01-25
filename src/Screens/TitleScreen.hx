@@ -1,5 +1,6 @@
 package screens;
 
+import flash.display.SimpleButton;
 import openfl.Assets;
 import openfl.display.Bitmap;
 import openfl.display.BitmapData;
@@ -12,7 +13,7 @@ import buttons.*;
 /**
  * Class for the Title Screen
  * 
- * @author Kevin Beijer
+ * @author Kevin
  */
 
 class TitleScreen extends Screen
@@ -22,25 +23,36 @@ class TitleScreen extends Screen
 		super();
 		
 		var titleData:BitmapData = Assets.getBitmapData( "img/Starting screen_right size.png");
+
 		var title:Bitmap = new Bitmap( titleData );
+	
 		addChild(title);
 	}
 
 	override public function onLoad():Void
 	{
-		var toGame:PlayButton = new PlayButton( onPlayClick );
-		toGame.x = 500;
-		toGame.y = 50;
+		var toGame:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Start.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Over_Start.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Down_Start.png"), 
+		"Start", onPlayClick);
+		toGame.y = 150;
+		toGame.x = 344;
 		addChild( toGame );
 		
-		var toCredits:CreditsButton = new CreditsButton( onCreditsClick );
-		toCredits.x = 500;
-		toCredits.y = 150;
+		var toCredits:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Credits.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Over_Credits.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Down_Credits.png"), 
+		"Credits", onCreditsClick);
+		toCredits.y = 210;
+		toCredits.x = 344;
 		addChild( toCredits );
 		
-		var toQuit:QuitButton = new QuitButton( onQuitClick );
-		toQuit.x = 744;
-		toQuit.y = 424;
+		var toQuit:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Quit.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Over_Quit.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Down_Quit.png"), 
+		"Quit game", onQuitClick);
+		toQuit.y = 270;
+		toQuit.x = 344;
 		addChild( toQuit );
 	}
 
