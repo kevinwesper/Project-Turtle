@@ -27,15 +27,22 @@ class CreditsScreen extends Screen
 	}
 	
 	override public function onLoad():Void
-	{
-		var toMenu:MenuButton = new MenuButton( onMenuClick );
-		toMenu.x = 500;
-		toMenu.y = 50;
+	{	var toMenu:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Main.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Over_Main.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Down_Main.png"), 
+		"Menu", onMenuClick);
+		toMenu.y = 150;
+		toMenu.x = 674;
 		addChild( toMenu );
 		
-		var toQuit:QuitButton = new QuitButton( onQuitClick );
-		toQuit.x = 744;
-		toQuit.y = 424;
+
+		
+		var toQuit:Button = new Button(Assets.getBitmapData("img/Button_Turtle_Up_Quit.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Over_Quit.png"), 
+		Assets.getBitmapData("img/Button_Turtle_Down_Quit.png"), 
+		"Quit game", onQuitClick);
+		toQuit.y = 270;
+		toQuit.x = 674;
 		addChild( toQuit );
 	}
 
