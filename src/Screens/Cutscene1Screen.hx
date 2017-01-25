@@ -67,11 +67,4 @@ class Cutscene1Screen extends Screen
 	{
 		Sys.exit(0);
 	}
-	
-	// function to test cutscenes to move automaticaly
-	private function wait()
-	{
-		Sys.sleep(.20);
-		Main.instance.loadScreen( ScreenTypes.Game );
-	}
 }
