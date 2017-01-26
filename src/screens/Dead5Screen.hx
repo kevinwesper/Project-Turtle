@@ -10,7 +10,7 @@ import screens.Screen;
 import buttons.*;
 /**
  * ...
- * @author Kevin
+ * @author Kevin Beijer
  */
 class Dead5Screen extends Screen
 {
