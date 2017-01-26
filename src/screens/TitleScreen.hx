@@ -13,7 +13,7 @@ import buttons.*;
 /**
  * Class for the Title Screen
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
 class TitleScreen extends Screen
