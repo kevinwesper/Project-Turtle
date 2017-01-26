@@ -12,7 +12,7 @@ import buttons.*;
 /**
  * Class for Cutscene 1
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
 class Cutscene3Screen extends Screen
