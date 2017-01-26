@@ -10,7 +10,7 @@ import flash.system.System;
 /**
  * Class for the Game Screen
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
 class Battle2Screen extends Screen
