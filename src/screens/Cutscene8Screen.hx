@@ -8,7 +8,7 @@ import openfl.events.Event;
 import flash.system.System;
 
 import buttons.*;
-//@author Kevin
+//@author Kevin Beijer
 
 
 class Cutscene8Screen extends Screen
