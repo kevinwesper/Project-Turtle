@@ -12,7 +12,7 @@ import openfl.events.MouseEvent;
 /**
  * Class for the Game Screen
  * 
- * @author Kevin
+ * @author Kevin Beijer
  */
 
 class Battle1Screen extends Screen
