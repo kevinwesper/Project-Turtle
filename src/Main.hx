@@ -71,6 +71,16 @@ class Main extends Sprite
 				currentScreen = new Cutscene12Screen();
 			case ScreenTypes.Cutscene13:
 				currentScreen = new Cutscene13Screen();
+			case ScreenTypes.Dead1:
+				currentScreen = new Dead1Screen();
+			case ScreenTypes.Dead2:
+				currentScreen = new Dead2Screen();
+			case ScreenTypes.Dead3:
+				currentScreen = new Dead3Screen();
+			case ScreenTypes.Dead4:
+				currentScreen = new Dead4Screen();
+			case ScreenTypes.Dead5:
+				currentScreen = new Dead5Screen();
 		}
 		addChild( currentScreen );
 		currentScreen.onLoad();
