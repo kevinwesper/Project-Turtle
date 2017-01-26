@@ -14,7 +14,12 @@ import openfl.text.TextFieldAutoSize;
 import openfl.text.TextFormat;
 import openfl.text.TextFormatAlign;
 
-// Creates the function of the button
+/**
+ * Creates the Buttons
+ * 
+ * @author Deborah Oosterhuis, Kevin Beijer
+ */
+
 class Button extends Sprite
 {
 	var upBitmapData:BitmapData;
