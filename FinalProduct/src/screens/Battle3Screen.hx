@@ -891,7 +891,15 @@ class Battle3Screen extends Screen
 		}
 		else
 		{
-			var attackType : Int = Math.ceil( 5 * Math.random() );
+			enemyToPlayerDamage = Math.ceil( 10 + (15 * Math.random()) );
+			Actuate.tween (enemy, 1, { x: (player.x +125), y: player.y }).repeat (1).reflect ();
+			selection.pop();
+			isPlayerAlive(playerToPlayerDamage, enemyToPlayerDamage);
+			playerTurn();
+			enemyToPlayerDamage = 0;
+			playerToPlayerDamage = 0;
+		}
+/*			var attackType : Int = Math.ceil( 5 * Math.random() );
 			if ( attackType == 1 || attackType == 2 || attackType == 3 )
 			{
 				enemyToPlayerDamage = Math.ceil( 10 + (20 * Math.random()) );
@@ -912,7 +920,7 @@ class Battle3Screen extends Screen
 				enemyToPlayerDamage = 0;
 				playerToPlayerDamage = 0;
 			}
-		}
+*/
 	}
 	
 	override public function onLoad():Void
