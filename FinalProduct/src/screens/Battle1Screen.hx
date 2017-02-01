@@ -890,7 +890,7 @@ class Battle1Screen extends Screen
 		}
 		else
 		{
-			enemyToPlayerDamage = Math.ceil( 20 * Math.random() );
+			enemyToPlayerDamage = Math.ceil( 5 + (10 * Math.random()) );
 			Actuate.tween (enemy, 1, { x: (player.x +125), y: player.y }).repeat (1).reflect ();
 			selection.pop();
 			isPlayerAlive(playerToPlayerDamage, enemyToPlayerDamage);
